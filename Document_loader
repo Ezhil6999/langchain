@@ -1,0 +1,6 @@
+from langchain.document_loaders import TextLoader
+import requests
+# print(k.status_code)
+loader = TextLoader("index.md")
+k=loader.load()
+print(k)
